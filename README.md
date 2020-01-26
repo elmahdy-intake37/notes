@@ -178,5 +178,11 @@ __if you reset your local head and try to push you will get already update to ma
 
  _if co. working as centralize we will push to master direct_
 
+##update
+`git add . v/s git add *
+
+add * adds all the files in the current directory, and stages them for a commit, except the ones that begin with a dot. Files beginning with a . are hidden for add *n.
+On the other hand, git add . will add all the files, folders, sub-folders to the staging area along with the ones that begin with a ‘.’ .
+I also read that * is not a part of git. It is a wildcard, interpreted by the shell. * expands to all the files in the current directory. However, add . refers to the current directory itself and git add . will add all the files in that directory, including the files beginning with a dot.`
 
 `Thank You, if anyone need anything don't be hesitated to send me anytime`
